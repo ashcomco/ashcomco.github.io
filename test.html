@@ -10,8 +10,8 @@
     $(".openpop").click(function (e) {
         e.preventDefault();
         $("iframe").attr("src", $(this).attr('href'));
-        $(".links").fadeOut('slow');
-        $(".popup").fadeIn('slow');
+        $(".links").slideOut('slow');
+        $(".popup").slideIn('slow');
     });
 
     $(".close").click(function () {
